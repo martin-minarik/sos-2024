@@ -1,0 +1,9 @@
+[Unit]
+Description=SOS-Lab4-Task1-a
+
+[Service]
+Type=oneshot
+ExecStart=/opt/task_a.bash
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,11 @@
+root@debian:~# service lab07 status
+○ lab07.service - SOS-Lab07
+     Loaded: loaded (/etc/systemd/system/lab07.service; enabled; preset: enabled)
+     Active: inactive (dead) since Thu 2024-04-04 11:33:05 CEST; 23min ago
+    Process: 865 ExecStart=/opt/lab07.sh (code=exited, status=0/SUCCESS)
+   Main PID: 865 (code=exited, status=0/SUCCESS)
+        CPU: 14ms
+
+Apr 04 11:33:05 debian systemd[1]: Starting lab07.service - SOS-Lab07...
+Apr 04 11:33:05 debian systemd[1]: lab07.service: Deactivated successfully.
+Apr 04 11:33:05 debian systemd[1]: Finished lab07.service - SOS-Lab07.

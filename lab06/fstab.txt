@@ -1,0 +1,2 @@
+root@debian:/home/# cat /etc/fstab | grep home
+/dev/sdb        /home   ext4    defaults,usrquota       0       0

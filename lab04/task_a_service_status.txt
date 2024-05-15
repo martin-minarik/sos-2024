@@ -1,0 +1,10 @@
+○ task_a.service - SOS-Lab4-Task1-a
+     Loaded: loaded (/etc/systemd/system/task_a.service; enabled; vendor preset: enabled)
+     Active: inactive (dead) since Thu 2024-03-14 12:24:22 CET; 32s ago
+    Process: 145 ExecStart=/opt/task_a.bash (code=exited, status=0/SUCCESS)
+   Main PID: 145 (code=exited, status=0/SUCCESS)
+
+Mar 14 12:24:22 LAPTOP-HKN1TLBL systemd[1]: Starting SOS-Lab4-Task1-a...
+Mar 14 12:24:22 LAPTOP-HKN1TLBL task_a.bash[145]: /home/foo 248296
+Mar 14 12:24:22 LAPTOP-HKN1TLBL systemd[1]: task_a.service: Deactivated successfully.
+Mar 14 12:24:22 LAPTOP-HKN1TLBL systemd[1]: Finished SOS-Lab4-Task1-a.

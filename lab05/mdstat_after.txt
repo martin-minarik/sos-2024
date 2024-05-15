@@ -1,0 +1,24 @@
+root@debian:~# cat /proc/mdstat
+Personalities : [raid1]
+md0 : active raid1 sde[2] sdc[0]
+      20954112 blocks super 1.2 [2/1] [U_]
+      [============>........]  recovery = 60.1% (12605376/20954112) finish=0.6min speed=203704K/sec
+
+unused devices: <none>
+
+
+###########################################################
+root@debian:~# cat /proc/mdstat
+Personalities : [raid1]
+md0 : active raid1 sde[2] sdc[0]
+      20954112 blocks super 1.2 [2/2] [UU]
+
+unused devices: <none>
+
+###########################################################
+root@debian:~# cat /proc/mdstat
+Personalities : [raid1]
+md0 : active raid1 sdd[3](S) sde[2] sdc[0]
+      20954112 blocks super 1.2 [2/2] [UU]
+
+unused devices: <none>

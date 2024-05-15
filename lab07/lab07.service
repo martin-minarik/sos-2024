@@ -1,0 +1,7 @@
+[Unit]
+Description=SOS-Lab07
+[Service]
+Type=oneshot
+ExecStart=/opt/lab07.sh
+[Install]
+WantedBy=multi-user.target

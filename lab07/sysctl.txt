@@ -1,0 +1,2 @@
+root@debian:~# cat /etc/sysctl.conf | grep ip_forward
+net.ipv4.ip_forward=1
